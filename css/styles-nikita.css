@@ -1,0 +1,71 @@
+.h1, h1 {
+    font-size: 34px;
+}
+.breadcrumb.bg-transparent {
+    padding: 0;
+    margin: 15px 0;
+}
+section+section{
+    margin-top: 60px;
+}
+.h-page h1{
+    margin-bottom: 60px;
+}
+.menu-left {
+    background: #f1f1f1;
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 30px;
+    height: min-content;
+}
+.min-slider {
+    height: 200px;
+}
+.d-flex > .menu-left + .content {
+    margin-left: 60px;
+    position: relative;
+    width: 80%;
+}
+
+.cards-4 {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: 1fr; 
+    gap: 30px;
+}
+.card-catalog {
+    position: relative;
+    background: #f1f1f1;
+    border-radius: 20px;
+    height: 200px;
+    overflow: hidden;
+}
+.card-catalog > img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.card-catalog > span {
+    display: block;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    margin:auto;
+    bottom: 30px;
+}
+.d-grid-menu {
+    display: grid;
+    grid-template-columns: auto;
+}
+/*=====PRODUCTS=====*/
+.products{
+    margin-top: 60px;
+}
+/*!!!*/
+.section-slider {
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.swiper {
+    border-radius: 20px;
+}
